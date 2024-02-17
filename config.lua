@@ -152,6 +152,9 @@ Config.DurabilityMultiplier = {
     weapon_fireextinguisher      = 0.15,
     weapon_hazardcan             = 0.15,
     weapon_fertilizercan         = 0.15,
+
+    -- Custom
+    weapon_beanbagshotgun 		 = 0.0, -- qb-beanbagshotgun
 }
 
 Config.WeaponRepairPoints = {
@@ -207,6 +210,7 @@ WeaponAttachments = {
         weapon_marksmanrifle = `COMPONENT_MARKSMANRIFLE_CLIP_02`,
         weapon_marksmanrifle_mk2 = `COMPONENT_MARKSMANRIFLE_MK2_CLIP_02`,
         weapon_heavysniper_mk2 = `COMPONENT_HEAVYSNIPER_MK2_CLIP_02`,
+        weapon_beanbagshotgun = `COMPONENT_BEANBAGSHOTGUN_CLIP_01`, -- qb-beanbagshotgun
     },
     drum_attachment = {
         weapon_smg = `COMPONENT_SMG_CLIP_03`,
